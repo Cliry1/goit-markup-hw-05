@@ -157,9 +157,6 @@ nav, .nav-list, .header-logo , .contacts {
 .section-main-button:focus, .section-main-button:hover{
   background-color: var(--ocean, #404BBF);
 }
-.section-main-button:target{
-
-}
 /* #endregion */
 /* #region section benefits */
 .section.benefits{
@@ -552,7 +549,7 @@ footer .container{
   border: 1px solid rgba(0, 0, 0, 0.1);
   padding: 0;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  
+  margin-bottom: 24px;
 }
 .modal-menu-close:focus, .modal-menu-close:hover{
   background-color:#404BBF;
@@ -578,7 +575,7 @@ line-height: 1.17;
 letter-spacing: 0.04em;
 display: block;
 margin-bottom: 4px;
-
+font-weight: 400;
 }
 .modal-menu-form-input{
   width: 100%;
@@ -609,6 +606,7 @@ margin-bottom: 4px;
   height: 120px;
   resize: none;
   padding: 8px 16px;
+  margin: 0;
   border-radius: 4px;
   font-size: 12px;
   background-color: transparent; 
@@ -618,6 +616,8 @@ margin-bottom: 4px;
   color: var(--NAVY-BLUE-modal, rgba(46, 47, 66, 0.40));
   border: 1px solid var(--NAVY-BLUE-modal, rgba(46, 47, 66, 0.40));
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+
 }
 .modal-menu-form-textarea::placeholder{
   color: var(--NAVY-BLUE-modal, rgba(46, 47, 66, 0.40));
@@ -643,16 +643,17 @@ margin-bottom: 4px;
   color: var(--LIGHT-SLATE, #8E8F99);
   font-size: 12px;
   line-height: 1.17; 
-  letter-spacing: 0.04em;
+  letter-spacing: 0.48px;
+  font-weight: 400;
 }
 .modal-menu-container-checkbox{
   margin-bottom: 24px;
 }
 .privacy-policy{
   color: var(--IRIS, #4D5AE5);
-  font-size: 12px;
+
   line-height: 1.33;
-  letter-spacing: 0.04em;
+
   text-decoration-line: underline;
 }
 
