@@ -430,13 +430,13 @@ footer .container{
 .footer-logo-box{
   margin-right: 120px
 }
-.footer-form-subscribe{
+.footer-container-form{
   margin: 0 0 0 80px;
   display: flex;
   flex-direction: column;
 
 }
-.footer-label-subscribe{
+.footer-subscribe{
   color: #fff;
   font-weight: 500;
   margin: 0 0 16px 0;
