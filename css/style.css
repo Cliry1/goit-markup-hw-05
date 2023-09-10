@@ -543,14 +543,10 @@ footer .container{
 }
 .modal-menu-close:focus, .modal-menu-close:hover{
   background-color:#404BBF;
-  border:none;
-}
-.modal-menu-close-svg{
-  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-.modal-menu-close-svg:focus, .modal-menu-close-svg:hover{
+  border:none;  
   fill: #ffffff;
 }
+
 .modal-menu-form-description{
   color: var(--NAVY-BLUE, #2E2F42);
   text-align: center;
@@ -647,7 +643,7 @@ margin-bottom: 4px;
   letter-spacing: 0.04em;
   text-decoration-line: underline;
 }
-.modal-menu-input-checkbox{
+.visually-hidden{
   position: absolute;
   width: 1px;
   height: 1px;
@@ -660,7 +656,7 @@ margin-bottom: 4px;
   overflow: hidden;
 }
 .modal-menu-input-checkbox-own{
-  display: inline-flex;
+  display:inline-flex;
   align-items: center;
   justify-content: center;
   width: 16px;
