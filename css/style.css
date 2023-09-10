@@ -436,10 +436,17 @@ footer .container{
   flex-direction: column;
 
 }
+
+.footer-container-subscribe{  
+  display: flex;
+  gap: 24px;
+}
 .footer-subscribe{
   color: #fff;
   font-weight: 500;
   margin: 0 0 16px 0;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 .footer-input{
   background: var(--NAVY-BLUE, #2E2F42);
@@ -461,7 +468,7 @@ footer .container{
   display: inline-flex;
   justify-content: center;
   align-items: center;
-  margin: 0 0 0 24px;
+
   border-radius: 4px;
   background: var(--IRIS, #4D5AE5);
   border: none;
