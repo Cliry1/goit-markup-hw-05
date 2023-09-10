@@ -570,12 +570,10 @@ footer .container{
 }
 .modal-menu-form-label{
   color: var(--LIGHT-SLATE, #8E8F99);
-font-size: 12px;
-line-height: 1.17; 
-letter-spacing: 0.04em;
-display: block;
-margin-bottom: 4px;
-font-weight: 400;
+  font-size: 12px;
+  line-height: 1.17; 
+  letter-spacing: 0.04em;
+  margin-bottom: 4px;
 }
 .modal-menu-form-input{
   width: 100%;
@@ -606,7 +604,6 @@ font-weight: 400;
   height: 120px;
   resize: none;
   padding: 8px 16px;
-  margin: 0;
   border-radius: 4px;
   font-size: 12px;
   background-color: transparent; 
@@ -643,17 +640,15 @@ font-weight: 400;
   color: var(--LIGHT-SLATE, #8E8F99);
   font-size: 12px;
   line-height: 1.17; 
-  letter-spacing: 0.48px;
-  font-weight: 400;
+  letter-spacing: 0.04em;
+
 }
 .modal-menu-container-checkbox{
   margin-bottom: 24px;
 }
 .privacy-policy{
   color: var(--IRIS, #4D5AE5);
-
   line-height: 1.33;
-
   text-decoration-line: underline;
 }
 
