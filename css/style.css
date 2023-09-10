@@ -574,6 +574,7 @@ footer .container{
   line-height: 1.17; 
   letter-spacing: 0.04em;
   margin-bottom: 4px;
+  display: block;
 }
 .modal-menu-form-input{
   width: 100%;
